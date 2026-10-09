@@ -1,0 +1,28 @@
+{
+  "title": "Hospital Inpatient Discharges (SPARCS De-Identified): 2021",
+  "source_url": "https://health.data.ny.gov/Health/Hospital-Inpatient-Discharges-SPARCS-De-Identified/tg3i-cinn",
+  "api_url": "https://health.data.ny.gov/resource/tg3i-cinn.csv",
+  "assessment_drive_url": "https://drive.google.com/file/d/17XAIEEOIHOL0j28a5YCNuSjl67IGDHXL/view",
+  "source_rows": 2135260,
+  "retrieved_utc": "2026-10-09T12:15:20.566982+00:00",
+  "portal_rows_updated_at": 1715175134,
+  "note": "Official portal edition of the assessment's 2021 SPARCS dataset; the Drive file is a 2023 snapshot and may differ from this portal edition. All source rows are included; only dashboard-relevant columns retained.",
+  "selected_columns": [
+    "hospital_service_area",
+    "hospital_county",
+    "facility_name",
+    "age_group",
+    "gender",
+    "race",
+    "length_of_stay",
+    "type_of_admission",
+    "patient_disposition",
+    "discharge_year",
+    "ccsr_diagnosis_code",
+    "ccsr_diagnosis_description",
+    "apr_severity_of_illness",
+    "payment_typology_1",
+    "total_charges",
+    "total_costs"
+  ]
+}
