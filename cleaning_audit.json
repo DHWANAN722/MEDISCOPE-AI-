@@ -1,0 +1,10 @@
+{
+  "source_rows": 2135260,
+  "invalid_stay_removed": 0,
+  "charges_missing_or_invalid": 0,
+  "costs_missing_or_invalid": 0,
+  "clean_rows": 2135260,
+  "topcoded_stays": 1575,
+  "charge_p99": 569109.4458000028,
+  "preserved_duplicates": "No patient/encounter identifier is available; identical-looking rows are retained."
+}
