@@ -227,13 +227,12 @@ Screenshots are documentation; the application itself is `app.py`. No screenshot
 
 ## Complete before submission
 
-- Student full name: **[enter your name]**
-- Candidate registration number: **[enter your number]**
-- School name: **[enter your school]**
+- Student full name: **Dhwanan Bhatt**
+- Candidate registration number: **2505556**
+- School name: **USFC**
 - CRS: **Artificial Intelligence**
 - Course: **Mathematics for AI-II**
-- GitHub repository: **[paste your actual repository URL]**
-- Live Streamlit URL: **[add the deployed URL above]**
+
 
 The assessment also asks for a separate submission PDF and repository access. Those final identity/access details depend on your actual repository and deployment.
 
