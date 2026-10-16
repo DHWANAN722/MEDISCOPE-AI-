@@ -184,7 +184,7 @@ else:
  st.caption('Currency strings are parsed. Negative/non-finite monetary values become missing, preserving rows for stay analysis. Categories are standardized. Identical-looking rows are retained because there is no encounter ID. Unnecessary columns, including birth weight, are omitted.')
  st.subheader('Inspect and export this cohort')
  st.caption(f'First {min(500,len(cohort)):,} of {len(cohort):,} selected rows shown. Row exports are capped at 50,000; summary exports use all selected records.')
- st.dataframe(cohort.head(500),hide_index=True,use_container_width=True)
+ st.dataframe(cohort.head(500),hide_index=True,use_container_width=True) 
  a,b,c=st.columns(3)
  with a:st.download_button('Download row excerpt',csv_safe(cohort.head(50000)),'mediscope_rows_first_50000.csv','text/csv')
  with b:st.download_button('Download diagnosis summary',csv_safe(grouped(cohort,['diagnosis_code','diagnosis'],1)),'mediscope_diagnoses.csv','text/csv')
